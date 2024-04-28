@@ -139,21 +139,41 @@
 // 7
 // տրված զանգվածների 7-ին բազմապատիկ տարրերի ընդհանուր գումարը։
 
-let x = [2,6,3,8,7,4,7];
-let y = [9,5,8,6,3,7,4];
-let sum = 0;
+// let x = [2,6,3,8,7,4,7];
+// let y = [9,5,8,6,3,7,4];
+// let sum = 0;
 
-for ( let i = 0; i < x.length; i++){
-    if( x[i] % 7 === 0){
-        sum += x[i];
-    }
+// for ( let i = 0; i < x.length; i++){
+//     if( x[i] % 7 === 0){
+//         sum += x[i];
+//     }
 
+// }
+
+// for ( let i = 0; i < y.length; i++){
+//     if( y[i] % 7 ===0){
+//         sum += y[i];
+//     }
+
+// }
+// console.log(sum);
+
+// 8
+
+// տրված զանգվածների տրված k թվին բազմապատիկ տարրերի ընդհանուր քանակը
+
+let x = [5,6,9,8,7,-6,4];
+let y = [8,9,6,3,-7,9,-8];
+let k = 6;
+let count = 0;
+
+for ( let i = 0; i < x.length;i++){
+    if( x[i] % 5 === 0){
+
+    }count++
 }
-
 for ( let i = 0; i < y.length; i++){
-    if( y[i] % 7 ===0){
-        sum += y[i];
-    }
+    if(y[i] % 5 ===0){
 
-}
-console.log(sum);
+    }count++
+}console.log(count);
