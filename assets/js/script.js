@@ -181,17 +181,36 @@
 // 9
 // x զանգվածի զույգ ինդեքս ունեցող և y զանգվածի կենտ ինդեքս ունեցող տարրերի ընդհանուր գումարը
 
-let x = [2,8,6,8,9,7,4];
-let y = [8,6,4,6,9,2,3];
-let count = 0;
+// let x = [2,8,6,8,9,7,4];
+// let y = [8,6,4,6,9,2,3];
+// let count = 0;
 
-for ( let i = 0; i < x.lendth; i++){
-    if(x[i] % 2 === 0){
+// for ( let i = 0; i < x.lendth; i++){
+//     if(x[i] % 2 === 0){
        
-    } count++
-}
-for ( let i = 0; i < y.length; i++){
-    if( y[i] % 2 !==0){
+//     } count++
+// }
+// for ( let i = 0; i < y.length; i++){
+//     if( y[i] % 2 !==0){
        
-    } count++
-}console.log(count);
+//     } count++
+// }console.log(count);
+
+// 10
+// տրված զանգվածների տարրերի քառակուսիների ընդհանուր գումարը
+
+// let x = [4,8,6,7,5,2,-9];
+// let y = [8,5,-9,5,6,4,3];
+// let count = 0;
+
+// for ( let i = 0; i < x.length; i++ ){
+//     if(x[i] **2){
+
+//     }count++
+// }
+
+// for ( let i = 0; i < y.length; i++){
+//     if( y[i] **2){
+
+//     }count++
+// }console.log(count);
